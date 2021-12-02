@@ -1,0 +1,10 @@
+@import './headerStyle.css';
+@import './footerStyle.css';
+
+html, body, #root, .App {
+  height: 100vh;
+}
+
+.App {
+  position: relative;
+}
