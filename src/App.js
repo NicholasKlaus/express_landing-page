@@ -1,12 +1,20 @@
 import React from "react";
-import { Header } from "./components/index";
+import { 
+  Header, 
+  HeroSection,
+  ContactForm,
+  Footer
+} from "./components/index";
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <div className="container">
-        <Header />
+        <HeroSection />
+        <ContactForm />
       </div>
+      <Footer />
     </div>
   );
 }

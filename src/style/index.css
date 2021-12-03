@@ -1,10 +1,13 @@
 @import './headerStyle.css';
 @import './footerStyle.css';
+@import './heroSectionStyle.css';
+@import './contactFormStyle.css';
 
 html, body, #root, .App {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .App {
   position: relative;
+  background: linear-gradient(180deg, #FFFFFF 0%, #E6EDFA 100%);
 }
